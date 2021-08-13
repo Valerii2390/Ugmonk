@@ -1,0 +1,22 @@
+$yel: #f4b01e;
+$bld: #020d18;
+$bl: #0a1521;
+$bg: #021522;
+$red: #fe0f20;
+$ora: #df5f37;
+$bll: #37a3df;
+$text: #292929;
+@mixin f300 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+@mixin f500 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+@mixin f700 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}

@@ -1,0 +1,36 @@
+ @font-face {
+     font-family: 'Roboto-Light' sans-serif;
+     src: url('../fonts/Roboto-Light.woff2') format('woff2'), url('../fonts/Roboto-Light.woff') format('woff');
+     font-weight: 300;
+     font-display: swap;
+ }
+ 
+ @font-face {
+     font-family: 'Roboto-Regular' sans-serif;
+     src: url('../fonts/Roboto-Regular.woff2') format('woff2'), url('../fonts/Roboto-Regular.woff') format('woff');
+     font-weight: 400;
+     font-display: swap;
+ }
+ 
+ @font-face {
+     font-family: 'Roboto-Medium' sans-serif;
+     src: url('../fonts/Roboto-Regular.woff2') format('woff2'), url('../fonts/Roboto-Regular.woff') format('woff');
+     font-weight: 500;
+     font-display: swap;
+ }
+ 
+ @font-face {
+     font-family: 'Roboto-Bold' sans-serif;
+     src: url('../fonts/Roboto-Bold.woff2') format('woff2'), url('../fonts/Roboto-Bold.woff') format('woff');
+     font-weight: 700;
+     font-display: swap;
+ }
+ 
+ @font-face {
+     font-family: 'icomoon';
+     src: url('../fonts/icomoon.eot?c0a7s7');
+     src: url('../fonts/icomoon.eot?c0a7s7#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?c0a7s7') format('truetype'), url('../fonts/icomoon.woff?c0a7s7') format('woff'), url('../fonts/icomoon.svg?c0a7s7#icomoon') format('svg');
+     font-weight: normal;
+     font-style: normal;
+     font-display: block;
+ }

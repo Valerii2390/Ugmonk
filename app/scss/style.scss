@@ -1,0 +1,104 @@
+@import '_vars';
+@import '_global';
+@import '_fonts';
+.header__under {
+    text-align: center;
+    padding: 13px 0px 12px;
+    background-color: #CED3CA;
+}
+
+.header__under-title {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.header__under-btn {
+    padding: 10px 13px;
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 33px;
+    left: 0;
+    z-index: 10;
+    padding: 48px 0px 42px;
+    // Плашка
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        // background-color: black;
+        z-index: 3;
+    }
+    // Плашка
+    &__inner {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+    }
+    // лайфхак для картинок
+    &__logo {
+        flex: 0 0 100px;
+        position: relative;
+        z-index: 3;
+    }
+    &__logo img {
+        display: block;
+    }
+    // лайфхак для картинок
+    &__burger {
+        display: none;
+    }
+    .header__menu {
+        margin-right: auto;
+        margin-left: 66px;
+    }
+    &__list {
+        display: flex;
+        position: relative;
+        z-index: 3;
+        li+li {
+            margin-left: 20px;
+        }
+    }
+    &__link {
+        color: $text;
+    }
+}
+
+.header__content-list {
+    display: flex;
+    margin-right: 56px;
+    li {
+        margin-right: 30px;
+        border-right: 1px solid $text;
+        padding-right: 13px;
+    }
+}
+
+.header__content-link {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.login {
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        background-image: url(../images/cart.svg);
+        width: 18px;
+        height: 18px;
+        right: -50px;
+    }
+}
+
+@import '_media';
